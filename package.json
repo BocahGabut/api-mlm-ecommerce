@@ -1,0 +1,31 @@
+{
+    "name": "api-mlm-ecommerce",
+    "version": "1.0.0",
+    "description": "\"api untuk mlm ecommerce\"",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/BocahGabut/api-mlm-ecommerce.git"
+    },
+    "author": "BocahGabut",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BocahGabut/api-mlm-ecommerce/issues"
+    },
+    "homepage": "https://github.com/BocahGabut/api-mlm-ecommerce#readme",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.8.0",
+        "graphql-tools": "^9.0.0",
+        "mongoose": "^7.4.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
